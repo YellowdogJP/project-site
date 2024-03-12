@@ -110,7 +110,7 @@ h1.title {
 
 .button {
   /* background-color: #3396f3;
-  color:white; */
+  color:white; */     
   padding: 10px 25px;
   border-radius: 5px;
   text-decoration: none;
@@ -139,7 +139,7 @@ h1.title {
 }
 
 .gray {
-  background-color: wheat
+  background-color: wheat;
 }
 
 .card {
