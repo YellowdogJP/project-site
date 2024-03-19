@@ -1,10 +1,44 @@
 /* reset css */
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: 0;
+} */
+body {
+ font-family: "Roboto", sans-serif;
+ color: 444;
 }
 
+.team{
+  background: rgb(201, 190, 190);
+}
+.hero{
+  width: 60%;
+  margin: auto;
+}
+
+header div{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+.logo img{
+  width: 211px;
+}
+.sign-in {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sign-in button {
+ border: none; 
+}
+.input [type = "text"], [type = "email"], [type = "password"] {
+  width: 180px;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
 .container {
   max-width: 1000px;
   margin: auto;
@@ -63,6 +97,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: italic;
+
 }
 
 .roboto-medium-italic {
@@ -100,8 +135,7 @@ h1 {
 
 h1.title {
   margin-bottom: 2 rem;
-  text-align: center;
-  color: rgb(39, 38, 38);
+  text-align: left;
 }
 
 .intro .cta {
@@ -139,7 +173,7 @@ h1.title {
 }
 
 .gray {
-  background-color: wheat;
+  background-color: rgb(201, 190, 190);
 }
 
 .card {
